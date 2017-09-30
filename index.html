@@ -10,134 +10,235 @@
     <link rel="icon" href="../favicon.ico"> <!-- Si es que tenemos ícono...-->
 
     <title>RestoApp</title>
-    
-    <!-- Bootstrap core CSS -->
+
+ <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+ <!-- CSS Nativos-->
+    <link rel="stylesheet" href="estilos.css">
+
+
 
 </head>
 <body>
-    <!-- 
-        <div class="header">
-        <!-- Aca se desarrolla el Header --->
-    </div>
-
-    <!-- Footer --->
-    <footer>
-
-    </footer> -->
 
     <body>
-            
+
+    <!--ENCABEZADO-->
+
                 <header>
                   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                    <a class="navbar-brand" href="#">Carousel</a>
+                    <a class="navbar-brand">RestoApp</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
+       <!--MENU-->
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                       <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
+                          <a class="nav-link" href="#seccion-2"> WebApp</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link disabled" href="#">Disabled</a>
+                          <a class="nav-link" href="#seccion-3">Descarga</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#seccion-4">PC App</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#seccion-5">Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#seccion-6">Precios</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#seccion-7">Contacto</a>
                         </li>
                       </ul>
-                      <form class="form-inline mt-2 mt-md-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                      </form>
+
                     </div>
                   </nav>
                 </header>
-            
+
+  <!--BLOQUES-->
                 <main role="main">
 
-            
-            
+
+
                   <!-- Marketing messaging and featurettes
                   ================================================== -->
                   <!-- Wrap the rest of the page in another container to center all the content. -->
-            
+
                   <div class="container marketing" id="seccion1">
-            
-                    <!-- Three columns of text below the carousel -->
-                    <div class="row">
-                      <div class="col-lg-4">
-                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Heading</h2>
-                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-                      </div><!-- /.col-lg-4 -->
-                      <div class="col-lg-4">
-                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Heading</h2>
-                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-                      </div><!-- /.col-lg-4 -->
-                      <div class="col-lg-4">
-                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Heading</h2>
-                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-                      </div><!-- /.col-lg-4 -->
-                    </div><!-- /.row -->
-            
-            
-                    <!-- START THE FEATURETTES -->
-            
-                    <hr class="featurette-divider">
-            
-                    <div class="row featurette">
-                      <div class="col-md-7">
-                        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                      </div>
-                      <div class="col-md-5">
-                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                      </div>
-                    </div>
-            
-                    <hr class="featurette-divider">
-            
+
+    <!--CELU APLICACION-->
+                    </br>
+                    </br>
+                    <hr id="seccion-2" class="featurette-divider">
+                    </br>
+                    </br>
                     <div class="row featurette">
                       <div class="col-md-7 order-md-2">
-                        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+                        <h2 class="featurette-heading">Beneficios para el cliente del comercio <span class="text-muted">(Web App)</span></h2>
                         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                       </div>
                       <div class="col-md-5 order-md-1">
                         <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
                       </div>
                     </div>
-            
-                    <hr class="featurette-divider">
-            
+    <!--Descarga-->
+                    <hr id="seccion-3" class="featurette-divider">
+                     </br>
+                     </br>
+                    <div class="row featurette">
+                      <div class="col-md-9">
+                        <h2 class="featurette-heading">Descarga <span class="text-muted">WebApp.</span></h2>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                      </div>
+                      <div class="col-md-3">
+                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                      </div>
+                    </div>
+                    </br>
+                    </br>
+
+<!--PC APLICACION-->
+                    <hr id="seccion-4" class="featurette-divider">
+
+                    </br>
+                    </br>
                     <div class="row featurette">
                       <div class="col-md-7">
-                        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                        <h2 class="featurette-heading">Beneficios para su comercio <span class="text-muted">(App PC)</span></h2>
                         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                       </div>
                       <div class="col-md-5">
                         <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
                       </div>
                     </div>
-            
+                    </br>
+                    </br>
+
+    <!--CLIENTES -->
+                    <hr id="seccion-5" class="featurette-divider">
+                    </br>
+                    </br>
+                    <div  class="row featurette">
+                      <div class="col-md-12">
+                        <h2 class="featurette-heading">Comercio que usan <span class="text-muted">nuesta App</span></h2>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                      </div>
+
+                    </div>
+
+
+                    <!-- Three columns of text below the carousel -->
+
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Cliente 1</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                      </div><!-- /.col-lg-4 -->
+                      <div class="col-lg-3">
+                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Cliente 2</h2>
+                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                      </div><!-- /.col-lg-4 -->
+                      <div class="col-lg-3">
+                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Cliente 3</h2>
+                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                      </div><!-- /.col-lg-4 -->
+                      <div class="col-lg-3">
+                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Cliente 4</h2>
+                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                      </div><!-- /.col-lg-4 -->
+                    </div><!-- /.row -->
+                    </br>
+                    </br>
+      <!--Pecios-->
+                    <hr id="seccion-6" class="featurette-divider">
+                    </br>
+                    </br>
+                    <div class="row featurette">
+                      <div class="col-md-3">
+                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                      </div>
+                      <div class="col-md-9">
+                        <h2 class="featurette-heading">Precios <span class="text-muted">de nuesta App</span></h2>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                      </div>
+
+                    </div>
+
+
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Plan 1</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                      </div><!-- /.col-lg-4 -->
+                      <div class="col-lg-4">
+                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Plan 2</h2>
+                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                      </div><!-- /.col-lg-4 -->
+                      <div class="col-lg-4">
+                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Plan 3</h2>
+                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                      </div><!-- /.col-lg-4 -->
+                    </div><!-- /.row -->
+                    </br>
+                    </br>
+
+<!--Contacto-->
+                    <hr id="seccion-7" class="featurette-divider">
+                    </br>
+                    </br>
+                    <div class="row featurette">
+                      <div class="col-md-12">
+                        <h2 class="featurette-heading">Contactese <span class="text-muted">con nosotros.</span></h2>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                      </div>
+
+                    </div>
+                   </br>
+                    </br>
+
+
+
+                    <!-- START THE FEATURETTES -->
+
+
+
+
                     <hr class="featurette-divider">
-            
+
                     <!-- /END THE FEATURETTES -->
-            
+
                   </div><!-- /.container -->
-            
-            
+
+
+  <!-- Pie de pagina-->
+
                   <!-- FOOTER -->
                   <footer class="container">
-                    <p class="float-right"><a href="#seccion1">Back to top</a></p>
+                    <p class="float-right"><a href="#">Back to top</a></p>
                     <p>&copy; 2017 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
                   </footer>
-            
+
                 </main>
 
      <!-- Bootstrap core JavaScript
