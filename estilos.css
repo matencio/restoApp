@@ -3,57 +3,22 @@ margin: 0px;
 padding: 0px;
 }
 
-header, nav, section, footer {display: block;} /* transforma los elementos en bloques*/
 
-body{text-align: center;} /* Centrar los elementos del body*/
-
-#Agrupar {
-	width: 80%; 
-	margin: 15px auto;
-	border: 1px solid #999999;
-
-	border-radius:20px
-}
-
-#Encabezado {
+#Bordes {
 	
-	background: #FFFBB9;   /* color de fondo del encabezado  #B0E0E6  */
+	background: #width;   /* color de fondo del encabezado  #B0E0E6  */
 	border: 1px solid #999999;    /* borde del encabezado*/
 	padding: 20px;
 
-	border-top-left-radius:20px;
-	border-top-right-radius:20px;
-	border-botton-left-radius:0px;
-	border-botton-right-radius:0px;
-}
-
-#BarraIzquierda {
-	
-	margin: 15px auto;
-	width: 20%;
-	float: left;
-
-}
-
-#ContenidoPrincipal {
-	width: 70%;
-	border: 1px solid #999999;
-	float: right;
-	text-align: left;
-	padding: 30px;
-	background: #CCCCCC;
-}
-
-#PiePagina {
-	clear: both;
-	background: #FFFBB9;
-	border: 1px solid #999999;
-
-	border-top: 2px solid #999999;
 	border-radius:20px;
-	border-top-left-radius:0px;
-	border-top-right-radius:0px;
 }
+
+#Fondo1 {
+	background: #343a40 url("imagenes/HOME.jpg") no-repeat center top fixed ;
+	
+}
+
+
 
 #Sombra1 { text-shadow: 1px 1px 3px green ;}
 #Sombra2 { text-shadow: 1px 1px 3px red;}
