@@ -1,0 +1,25 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  padding: 154px 0 100px;
+}
+
+
+  header {
+    padding: 150px 0 200px;  /* Espacio encabezado arriba - abajo */
+    background: #343a40 url("imagenes/home.jpg") no-repeat center top fixed ;
+  }
+
+
+section {
+  padding: 150px 0;   /* Espacio entre secciones */
+}
+
+#Fondo1 {
+	background: #343a40 url("imagenes/home.jpg") no-repeat center top fixed ;
+	
+}
