@@ -23,3 +23,11 @@ section {
 	background: #343a40 url("imagenes/home.jpg") no-repeat center top fixed ;
 	
 }
+
+.list-border-y li {
+  border-top: 1px solid;
+  align-items: center;
+}
+.list-border-y li:last-child {
+  border-bottom: 1px solid
+}

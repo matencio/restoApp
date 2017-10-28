@@ -10,13 +10,16 @@
 
     <title>RestoApp</title>
 
-    <!-- Bootstrap core CSS -->
+      <!-- Bootstrap core CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
       <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-      <link href="css/scrolling-nav.css" rel="stylesheet">
+      <!-- Font Awesome css -->
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+
+      <!-- Custom styles -->
+      <link href="css/custom-styles.css" rel="stylesheet">
 
   </head>
 
@@ -79,18 +82,20 @@
     <section id="seccion-2">
       <div class="container">
         
-         <div class="row featurette">
+         <div class="row featurette text-center">
             <div class="col-md-7 order-md-2">
                  <h2 class="featurette-heading">Beneficios para el cliente del comercio <span class="text-muted">(Web App)</span></h2>
-                 <ul> 
+                 <br>
+                 <ul class="text-left"> 
                   <li>Disponibilidad del menú de forma instantánea</li> 
                   <li>Realiza el pedido de forma práctica.</li> 
                   <li>Visualizar los platos más pedidos.</li> 
                   <li>Obtené descuentos y promociones exclusivas.</li> 
                   <li>Descubrí diferentes opciones de menú con precios actualizados.</li> 
                   </ul> 
-                            </div>
-            <div class="col-md-5 order-md-1">
+                  <!-- TODO: Agregar un boton que te mande a la sección de prototipo...-->
+            </div>
+            <div class="col-md-5 order-md-1 align-items-center text-center">
                  <img src="imagenes/sliderAPP/celu.gif" style="width:50%">
             </div>
          </div>         
@@ -106,7 +111,7 @@
                <p class="lead">Descargue de manera gratuita de las siguientes tiendas  </p>
                
            </div>
-           <div class="col-md-3">
+           <div class="col-md-3 align-items-center text-center">
                 <div>
                     <p class="btn-app-store">
                       <a class="btn btn-danger btn-lg" href="#fakelinks">
@@ -131,17 +136,37 @@
           <div class="row featurette">
               <div class="col-md-7">
                     <h2 class="featurette-heading">Beneficios para su comercio <span class="text-muted">(PC App)</span></h2>
-                    <ul> 
+                    <ul class="text-left"> 
                       <li>Obtener información valiosa de las preferencias de los clientes</li> 
                       <li>Ofrecer al cliente menús personalizados con categorías y opciones específicas.</li> 
                       <li>Obtener estadísticas acerca de su local.</li> 
                       <li>Alcanzar mayor claridad en la comunicación con el cliente.</li> 
                       </ul> 
               </div>
-              <div class="col-md-5">
+              <div class="col-md-5 align-items-center text-center">
                   <img src="imagenes/sliderPC/pc.gif" style="width:100%">
               </div>
           </div>
+      </div>
+    </section>
+
+    <!--PROTOTIPO-->
+    <section id="prototipo" class="prototipo">
+      <div class="container">
+        <div class="row align-items-center text-center">
+          <div class="col-md-12">
+            <h2 class="featurette-heading">
+              Pruebe el prototipo de RestoApp...
+            </h2>
+            <br>
+            <br>
+            <iframe src="https://marvelapp.com/37eag88?emb=1" 
+              width="452" height="901" allowTransparency="true"
+              frameborder="0">
+            </iframe>
+
+          </div>
+        </div>
       </div>
     </section>
 
@@ -159,7 +184,7 @@
 
        <!-- COLUMNAS -->
         
-        <div class="row">
+        <div class="row align-items-center text-center">
 
          <!-- Columna 1 -->
             <div class="col-lg-3">
@@ -211,25 +236,25 @@
         <div class="row">
 
           <!-- Columna 1 -->
-              <div class="col-lg-6">
+              <div class="col-lg-6 align-items-center text-center">
                    <img class="rounded-circle" src="imagenes/planes/01.jpg" alt="Generic placeholder image" width="140" height="140">
                    <h2>Básico</h2>
-                   <ul> 
-                    <li>Es gratuito</li> 
-                    <li>Funcionalidades Básicas</li> 
-                    <li>Acceso a la informacion del Restaurant</li> 
-                    <li>Acceso a la Carta del Restaurant</li> 
-                    <li>Escaneo </li> 
-                    <li>Funciones de Mozo</li> 
-                    </ul> 
+                      <ul class="text-left"> 
+                          <li>Es gratuito</li> 
+                          <li>Funcionalidades Básicas</li> 
+                          <li>Acceso a la informacion del Restaurant</li> 
+                          <li>Acceso a la Carta del Restaurant</li> 
+                          <li>Escaneo </li> 
+                          <li>Funciones de Mozo</li> 
+                        </ul>
               </div>
 
          
          <!-- Columna 3 -->
-              <div class="col-lg-6">
+              <div class="col-lg-6 align-items-center text-center">
                     <img class="rounded-circle" src="imagenes/planes/03.jpg" alt="Generic placeholder image" width="140" height="140">
                     <h2>Premium</h2>
-                    <ul> 
+                    <ul class="text-left">
                       <li>Funcionalidades Premium</li> 
                       <li>Acceso a la informacion del Restaurant</li> 
                       <li>Acceso a la Carta del Restaurant</li> 
@@ -239,7 +264,7 @@
                       <li>Menú personalizado </li> 
                       <li>Logos personalizados </li>
                       <li>Reportes de Negocio </li>  
-                    </ul> 
+                    </ul>
               </div>
          
         </div>
