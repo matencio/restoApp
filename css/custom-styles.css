@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
+
+
 header {
   padding: 154px 0 100px;
 }
@@ -21,7 +23,10 @@ section {
 
 #Fondo1 {
 	background: #343a40 url("imagenes/home.jpg") no-repeat center top fixed ;
-	
+}
+
+#prototipo {
+  overflow-x:hidden;
 }
 
 .list-border-y li {
