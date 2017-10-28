@@ -4,29 +4,32 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
-
-
 header {
-  padding: 154px 0 100px;
+  padding: 350px 0 200px;  /* Espacio encabezado arriba - abajo */
+  background: url("../imagenes/home.png") no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
-
-  header {
-    padding: 150px 0 200px;  /* Espacio encabezado arriba - abajo */
-    background: #343a40 url("imagenes/home.jpg") no-repeat center top fixed ;
-  }
 
 
 section {
   padding: 150px 0;   /* Espacio entre secciones */
 }
-
+/*!
 #Fondo1 {
 	background: #343a40 url("imagenes/home.jpg") no-repeat center top fixed ;
 }
-
+ */
 #prototipo {
   overflow-x:hidden;
+  padding: 100px 0;
+  background: url(https://source.unsplash.com/-TelEKCLPyY/1600x900) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .list-border-y li {
