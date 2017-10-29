@@ -5,8 +5,8 @@
  */
 
 header {
-  padding: 350px 0 200px;  /* Espacio encabezado arriba - abajo */
-  background: url("../imagenes/home.png") no-repeat top center;
+  padding: 200px 0 350px;  /* Espacio encabezado arriba - abajo */
+  background: #343a40 url("../imagenes/home.png") no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
