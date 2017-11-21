@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/template-overviews/scrolling-nav)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
- */
 
 header {
   padding: 200px 0 350px;  /* Espacio encabezado arriba - abajo */
@@ -17,11 +12,7 @@ header {
 section {
   padding: 150px 0;   /* Espacio entre secciones */
 }
-/*!
-#Fondo1 {
-	background: #343a40 url("imagenes/home.jpg") no-repeat center top fixed ;
-}
- */
+
 #prototipo {
   overflow-x:hidden;
   padding: 100px 0;
