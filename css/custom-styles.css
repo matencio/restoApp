@@ -1,10 +1,22 @@
 header {
-  padding: 200px 0 350px;  /* Espacio encabezado arriba - abajo */
-  background: #343a40 url("../imagenes/home.png") no-repeat top center;
+  padding: 50px 0 50px;  /* Espacio encabezado arriba - abajo */
+  background: #343a40 url("../imagenes/home.png") no-repeat top center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+nav {
+  opacity: 0.9;
+}
+
+.box {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  margin:  5%;
+  padding: 30px;
+  background-color: #000;
+  opacity: 0.8;
 }
 
 .bg-dark {
