@@ -18,7 +18,7 @@ Visite el sitio con las últimas modificaciones en cualquier dispositivo ingresa
 
 Captura del sitio:
 
-![Captura del sitio](https://github.com/matencio/restoApp/blob/master/imagenes/screencapture.png) 
+![Captura del sitio](https://github.com/matencio/restoApp/blob/master/imagenes/screencapture.JPG) 
 
 
 
