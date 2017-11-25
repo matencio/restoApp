@@ -15,3 +15,26 @@ UTN FRLP - Año 2017
 6. Se agregó el ícono de la aplicación en la pestaña del navegador.
 
 Visite el sitio con las últimas modificaciones en cualquier dispositivo ingresando en <https://matencio.github.io/restoApp/>.
+
+Captura del sitio:
+
+![Captura del sitio](https://github.com/matencio/restoApp/blob/master/imagenes/screencapture.png) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
