@@ -1,4 +1,3 @@
-
 header {
   padding: 200px 0 350px;  /* Espacio encabezado arriba - abajo */
   background: #343a40 url("../imagenes/home.png") no-repeat top center;
@@ -8,9 +7,41 @@ header {
   background-size: cover;
 }
 
+.bg-dark {
+  background-color: #eb4a4b!important;
+}
+
+.light-yellow {
+  background-color: #fbf1a9!important;
+}
+
+.washed-blue {
+  background-color: #f6fffe!important;
+}
 
 section {
   padding: 150px 0;   /* Espacio entre secciones */
+}
+
+.space {
+  padding-bottom: 100px;
+}
+
+#seccion-4 {
+  background-color: #fefcfe;
+}
+
+/*a:visited {
+  color: #fefcfe !important;
+} */
+
+.btn-secondary {
+  color: #fefcfe !important;
+}
+
+.py-5 {
+  padding-top: 5rem!important;
+  padding-bottom: 5rem!important;
 }
 
 #prototipo {
@@ -29,4 +60,16 @@ section {
 }
 .list-border-y li:last-child {
   border-bottom: 1px solid
+}
+
+.transition250 {
+    filter: opacity(1);
+    transform: translate3d(0px, 0px, 0px) scale(1); 
+    transition: all 250ms ease-out;
+}
+
+.transition500 {
+  filter: opacity(1); 
+  transform: translate3d(0px, 0px, 0px) scale(1); 
+  transition: all 500ms ease-out;
 }
